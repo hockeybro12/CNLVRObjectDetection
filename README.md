@@ -2,12 +2,12 @@
 Trains a MASK-RCNN model to do Object Detection on the CNLVR Dataset
 
 ## Requirements
-Same as the (Matterport Mask RCNN)[https://github.com/matterport/Mask_RCNN]
+Same as the [Matterport Mask RCNN](https://github.com/matterport/Mask_RCNN)
 
 
 ## Generating Data
 
-To train a MASK-RCNN, you need images and their respective masks. As NLVR is a synthetic dataset, we can modify the files by (Alane Suhr)[https://github.com/alsuhr-c/nlvr-baselines] to generate the masks.
+To train a MASK-RCNN, you need images and their respective masks. As NLVR is a synthetic dataset, we can modify the files by [Alane Suhr](https://github.com/alsuhr-c/nlvr-baselines) to generate the masks.
 
 In order to generate one image with it's mask and save it in `filename`, you can add this code to the end of `generator/image_generator.py`. You must also comment out everything after line 228.
 ```
